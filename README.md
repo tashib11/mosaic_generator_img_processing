@@ -25,8 +25,8 @@
   </tr>
   <tr>
     <td colspan="2" align="center"><img src="https://github.com/tashib11/mosaic_generator_img_processing/blob/main/assets/segmentation_demo_durbar.png" width="300"/><br/><sub><b>Superpixel Segmentation</b></sub>
-    </td>tr>
     </td>
+    </tr>
 
 </table>
 
@@ -80,3 +80,4 @@
 ### Step 1: Clone the Repository
 
 ```bash
+
