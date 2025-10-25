@@ -21,7 +21,7 @@
   <tr>
    <td><img src="https://github.com/tashib11/mosaic_generator_img_processing/blob/main/durbar.jpg" width="300"/><br/><sub><b>Original Image</b></sub></td>
     
-  <td><img src="https://github.com/tashib11/mosaic_generator_img_processing/blob/main/segmentation_demo_durbar.png" width="300"/><br/><sub><b>Mosaic Output</b></sub></td>
+  <td><img src="https://github.com/tashib11/mosaic_generator_img_processing/blob/main/segmentation_demo_durbar.png" width="300"/><br/><sub><b>Segmentation</b></sub></td>
 
   </tr>
   <tr>
@@ -81,5 +81,6 @@
 ### Step 1: Clone the Repository
 
 ```bash
+
 
 
