@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 import json
-from skimage.segmentation import slic
+from skimage.segmentation import slic, mark_boundaries
 from best_match import find_best_match
 
 def create_segments(image, n_segments):
@@ -11,6 +11,29 @@ def create_segments(image, n_segments):
     segments = slic(image_rgb, n_segments=n_segments, compactness=10, sigma=1)
     print(f"Created {len(np.unique(segments))} segments")
     return segments
+
+def visualize_segments(image, segments, output_dir):
+    """Show and save segmentation boundaries"""
+    # Convert to RGB for visualization
+    image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+    
+    # Mark boundaries (red lines)
+    marked = mark_boundaries(image_rgb, segments, color=(1, 0, 0), mode='thick')
+    
+    # Convert back to BGR for OpenCV
+    marked_bgr = (marked * 255).astype(np.uint8)
+    marked_bgr = cv2.cvtColor(marked_bgr, cv2.COLOR_RGB2BGR)
+    
+    # Save
+    cv2.imwrite(f"{output_dir}/segmentation.jpg", marked_bgr)
+    print(f"Segmentation saved: {output_dir}/segmentation.jpg")
+    
+    # Display
+    cv2.imshow("Superpixel Segmentation", marked_bgr)
+    cv2.waitKey(10000)  # Show for 2 seconds
+    cv2.destroyWindow("Superpixel Segmentation")
+    
+    return marked_bgr
 
 def place_tiles(mosaic, target_image, tile_images, segments, output_dir):
     """Place tiles for each segment"""
@@ -76,6 +99,9 @@ def create_mosaic(target_image, tile_images, n_segments=80, alpha=0.4, output_di
     # Create segments
     segments = create_segments(target_image, n_segments)
     
+    # Visualize segmentation
+    visualize_segments(target_image, segments, output_dir)
+    
     # Place tiles
     mosaic = target_image.copy()
     place_tiles(mosaic, target_image, tile_images, segments, output_dir)
@@ -105,7 +131,7 @@ if __name__ == "__main__":
     print(f"Loaded {len(tiles)} tiles\n")
     
     # Load target
-    img = cv2.imread('durbar.jpg')
+    img = cv2.imread('OIP.jpg')
     if img is None:
         print("Error: Image not found")
         exit()
@@ -117,9 +143,9 @@ if __name__ == "__main__":
         img = cv2.resize(img, (int(w*scale), int(h*scale)))
     
     # Create mosaic
-    result = create_mosaic(img, tiles, n_segments=80, alpha=0.4, output_dir='output')
+    result = create_mosaic(img, tiles, n_segments=150, alpha=0.4, output_dir='output')
     
-    # Show
-    cv2.imshow("Result", cv2.resize(result, (800, 600)))
+    # Show final result
+    cv2.imshow("Final Mosaic", cv2.resize(result, (800, 600)))
     cv2.waitKey(0)
     cv2.destroyAllWindows()
