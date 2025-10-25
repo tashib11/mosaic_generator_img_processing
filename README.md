@@ -19,8 +19,9 @@
 
 <table>
   <tr>
-    <td><img src="https://github.com/tashib11/mosaic_generator_img_processing.git/durbar.jpg" alt="Original Image" width="300"/><br/><sub><b>Original Image</b></sub></td>
-    <td><img src="https://github.com/tashib11/mosaic_generator_img_processing.git/emon.jpg" alt="Mosaic Output" width="300"/><br/><sub><b>Mosaic Output</b></sub></td>
+   <td><img src="https://github.com/tashib11/mosaic_generator_img_processing/blob/main/durbar.jpg" width="300"/><br/><sub><b>Original Image</b></sub></td>
+<td><img src="https://github.com/tashib11/mosaic_generator_img_processing/blob/main/emon.jpg" width="300"/><br/><sub><b>Mosaic Output</b></sub></td>
+
   </tr>
   <tr>
     <td colspan="2" align="center"><img src="assets/segments.jpg" alt="Superpixel Segments" width="300"/><br/><sub><b>Superpixel Segmentation</b></sub></td>
