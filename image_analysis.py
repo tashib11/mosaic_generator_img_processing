@@ -6,6 +6,7 @@ def average_color(image):
    # print(f"Average color: {avg_color}")
     return avg_color
 
+
 def extract_edge_strengths(image):
     gabor_kernels = []
     for theta in np.arange(0, np.pi, np.pi / 4): #np.arange(start=0, stop=180, step=45 -> 0 45 90 135)

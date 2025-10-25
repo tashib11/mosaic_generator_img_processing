@@ -1,0 +1,542 @@
+{
+  "0": {
+    "filename": "tile_superpixel_0.jpg",
+    "bbox": [
+      0,
+      0,
+      87,
+      68
+    ]
+  },
+  "1": {
+    "filename": "tile_superpixel_1.jpg",
+    "bbox": [
+      0,
+      0,
+      281,
+      130
+    ]
+  },
+  "2": {
+    "filename": "tile_superpixel_2.jpg",
+    "bbox": [
+      157,
+      0,
+      380,
+      70
+    ]
+  },
+  "3": {
+    "filename": "tile_superpixel_3.jpg",
+    "bbox": [
+      355,
+      0,
+      466,
+      72
+    ]
+  },
+  "4": {
+    "filename": "tile_superpixel_4.jpg",
+    "bbox": [
+      411,
+      0,
+      560,
+      74
+    ]
+  },
+  "5": {
+    "filename": "tile_superpixel_5.jpg",
+    "bbox": [
+      558,
+      0,
+      651,
+      74
+    ]
+  },
+  "6": {
+    "filename": "tile_superpixel_6.jpg",
+    "bbox": [
+      646,
+      0,
+      745,
+      74
+    ]
+  },
+  "7": {
+    "filename": "tile_superpixel_7.jpg",
+    "bbox": [
+      557,
+      0,
+      847,
+      94
+    ]
+  },
+  "8": {
+    "filename": "tile_superpixel_8.jpg",
+    "bbox": [
+      790,
+      0,
+      904,
+      74
+    ]
+  },
+  "9": {
+    "filename": "tile_superpixel_9.jpg",
+    "bbox": [
+      895,
+      0,
+      997,
+      74
+    ]
+  },
+  "10": {
+    "filename": "tile_superpixel_10.jpg",
+    "bbox": [
+      134,
+      3,
+      410,
+      141
+    ]
+  },
+  "11": {
+    "filename": "tile_superpixel_11.jpg",
+    "bbox": [
+      437,
+      70,
+      997,
+      134
+    ]
+  },
+  "12": {
+    "filename": "tile_superpixel_12.jpg",
+    "bbox": [
+      363,
+      71,
+      583,
+      128
+    ]
+  },
+  "13": {
+    "filename": "tile_superpixel_13.jpg",
+    "bbox": [
+      0,
+      83,
+      413,
+      304
+    ]
+  },
+  "14": {
+    "filename": "tile_superpixel_14.jpg",
+    "bbox": [
+      408,
+      95,
+      853,
+      211
+    ]
+  },
+  "15": {
+    "filename": "tile_superpixel_15.jpg",
+    "bbox": [
+      0,
+      100,
+      153,
+      150
+    ]
+  },
+  "16": {
+    "filename": "tile_superpixel_16.jpg",
+    "bbox": [
+      0,
+      102,
+      279,
+      192
+    ]
+  },
+  "17": {
+    "filename": "tile_superpixel_17.jpg",
+    "bbox": [
+      608,
+      102,
+      997,
+      214
+    ]
+  },
+  "18": {
+    "filename": "tile_superpixel_18.jpg",
+    "bbox": [
+      584,
+      105,
+      847,
+      151
+    ]
+  },
+  "19": {
+    "filename": "tile_superpixel_19.jpg",
+    "bbox": [
+      372,
+      111,
+      772,
+      267
+    ]
+  },
+  "20": {
+    "filename": "tile_superpixel_20.jpg",
+    "bbox": [
+      328,
+      139,
+      445,
+      262
+    ]
+  },
+  "21": {
+    "filename": "tile_superpixel_21.jpg",
+    "bbox": [
+      539,
+      159,
+      862,
+      218
+    ]
+  },
+  "22": {
+    "filename": "tile_superpixel_22.jpg",
+    "bbox": [
+      282,
+      209,
+      443,
+      345
+    ]
+  },
+  "23": {
+    "filename": "tile_superpixel_23.jpg",
+    "bbox": [
+      608,
+      214,
+      997,
+      374
+    ]
+  },
+  "24": {
+    "filename": "tile_superpixel_24.jpg",
+    "bbox": [
+      156,
+      218,
+      301,
+      269
+    ]
+  },
+  "25": {
+    "filename": "tile_superpixel_25.jpg",
+    "bbox": [
+      577,
+      218,
+      772,
+      266
+    ]
+  },
+  "26": {
+    "filename": "tile_superpixel_26.jpg",
+    "bbox": [
+      0,
+      221,
+      171,
+      270
+    ]
+  },
+  "27": {
+    "filename": "tile_superpixel_27.jpg",
+    "bbox": [
+      0,
+      224,
+      804,
+      507
+    ]
+  },
+  "28": {
+    "filename": "tile_superpixel_28.jpg",
+    "bbox": [
+      816,
+      261,
+      997,
+      396
+    ]
+  },
+  "29": {
+    "filename": "tile_superpixel_29.jpg",
+    "bbox": [
+      0,
+      268,
+      309,
+      413
+    ]
+  },
+  "30": {
+    "filename": "tile_superpixel_30.jpg",
+    "bbox": [
+      698,
+      286,
+      856,
+      391
+    ]
+  },
+  "31": {
+    "filename": "tile_superpixel_31.jpg",
+    "bbox": [
+      140,
+      294,
+      252,
+      406
+    ]
+  },
+  "32": {
+    "filename": "tile_superpixel_32.jpg",
+    "bbox": [
+      381,
+      319,
+      484,
+      389
+    ]
+  },
+  "33": {
+    "filename": "tile_superpixel_33.jpg",
+    "bbox": [
+      271,
+      330,
+      418,
+      398
+    ]
+  },
+  "34": {
+    "filename": "tile_superpixel_34.jpg",
+    "bbox": [
+      761,
+      381,
+      927,
+      477
+    ]
+  },
+  "35": {
+    "filename": "tile_superpixel_35.jpg",
+    "bbox": [
+      884,
+      387,
+      997,
+      487
+    ]
+  },
+  "36": {
+    "filename": "tile_superpixel_36.jpg",
+    "bbox": [
+      567,
+      404,
+      825,
+      442
+    ]
+  },
+  "37": {
+    "filename": "tile_superpixel_37.jpg",
+    "bbox": [
+      647,
+      432,
+      804,
+      487
+    ]
+  },
+  "38": {
+    "filename": "tile_superpixel_38.jpg",
+    "bbox": [
+      485,
+      438,
+      675,
+      522
+    ]
+  },
+  "39": {
+    "filename": "tile_superpixel_39.jpg",
+    "bbox": [
+      398,
+      444,
+      524,
+      572
+    ]
+  },
+  "40": {
+    "filename": "tile_superpixel_40.jpg",
+    "bbox": [
+      315,
+      445,
+      432,
+      561
+    ]
+  },
+  "41": {
+    "filename": "tile_superpixel_41.jpg",
+    "bbox": [
+      67,
+      449,
+      160,
+      582
+    ]
+  },
+  "42": {
+    "filename": "tile_superpixel_42.jpg",
+    "bbox": [
+      0,
+      456,
+      81,
+      581
+    ]
+  },
+  "43": {
+    "filename": "tile_superpixel_43.jpg",
+    "bbox": [
+      222,
+      456,
+      321,
+      559
+    ]
+  },
+  "44": {
+    "filename": "tile_superpixel_44.jpg",
+    "bbox": [
+      157,
+      457,
+      259,
+      575
+    ]
+  },
+  "45": {
+    "filename": "tile_superpixel_45.jpg",
+    "bbox": [
+      803,
+      470,
+      926,
+      571
+    ]
+  },
+  "46": {
+    "filename": "tile_superpixel_46.jpg",
+    "bbox": [
+      508,
+      475,
+      639,
+      588
+    ]
+  },
+  "47": {
+    "filename": "tile_superpixel_47.jpg",
+    "bbox": [
+      582,
+      475,
+      729,
+      577
+    ]
+  },
+  "48": {
+    "filename": "tile_superpixel_48.jpg",
+    "bbox": [
+      700,
+      475,
+      819,
+      557
+    ]
+  },
+  "49": {
+    "filename": "tile_superpixel_49.jpg",
+    "bbox": [
+      890,
+      476,
+      997,
+      587
+    ]
+  },
+  "50": {
+    "filename": "tile_superpixel_50.jpg",
+    "bbox": [
+      225,
+      528,
+      322,
+      650
+    ]
+  },
+  "51": {
+    "filename": "tile_superpixel_51.jpg",
+    "bbox": [
+      672,
+      533,
+      811,
+      648
+    ]
+  },
+  "52": {
+    "filename": "tile_superpixel_52.jpg",
+    "bbox": [
+      315,
+      540,
+      500,
+      650
+    ]
+  },
+  "53": {
+    "filename": "tile_superpixel_53.jpg",
+    "bbox": [
+      447,
+      540,
+      667,
+      650
+    ]
+  },
+  "54": {
+    "filename": "tile_superpixel_54.jpg",
+    "bbox": [
+      781,
+      545,
+      893,
+      650
+    ]
+  },
+  "55": {
+    "filename": "tile_superpixel_55.jpg",
+    "bbox": [
+      594,
+      551,
+      798,
+      650
+    ]
+  },
+  "56": {
+    "filename": "tile_superpixel_56.jpg",
+    "bbox": [
+      0,
+      560,
+      86,
+      650
+    ]
+  },
+  "57": {
+    "filename": "tile_superpixel_57.jpg",
+    "bbox": [
+      157,
+      560,
+      266,
+      650
+    ]
+  },
+  "58": {
+    "filename": "tile_superpixel_58.jpg",
+    "bbox": [
+      78,
+      562,
+      174,
+      650
+    ]
+  },
+  "59": {
+    "filename": "tile_superpixel_59.jpg",
+    "bbox": [
+      890,
+      569,
+      997,
+      650
+    ]
+  }
+}

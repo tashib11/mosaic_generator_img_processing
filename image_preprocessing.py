@@ -12,6 +12,7 @@ def load_images(directory, output_dir):
            # print(f"Loaded and saved image: {filename}")
     return images
 
+
 def resize_images(images, size, output_dir):
     resized_images = []
     for index, img in enumerate(images):

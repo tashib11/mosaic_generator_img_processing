@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mosaic Result</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        canvas { border: 2px solid #333; cursor: crosshair; }
+    </style>
+</head>
+<body>
+<div class="container mt-5">
+    <h1>Your Mosaic</h1>
+    <p>Settings: {{ n_segments }} segments, {{ alpha }} blending</p>
+    
+    <canvas id="canvas"></canvas>
+    
+    <div class="mt-3">
+        <button class="btn btn-success" onclick="download()">Download</button>
+        <a href="/" class="btn btn-secondary">New Mosaic</a>
+    </div>
+</div>
+
+<div class="modal fade" id="modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5>Tile <span id="tileId"></span></h5>
+                <button class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <img id="tileImg" style="width:100%">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script>
+const canvas = document.getElementById('canvas');
+const ctx = canvas.getContext('2d');
+const img = new Image();
+
+img.src = '/uploads/output/final.jpg';
+img.onload = function() {
+    canvas.width = img.width;
+    canvas.height = img.height;
+    ctx.drawImage(img, 0, 0);
+};
+
+canvas.onclick = function(e) {
+    const rect = canvas.getBoundingClientRect();
+    const x = Math.floor(e.clientX - rect.left);
+    const y = Math.floor(e.clientY - rect.top);
+    
+    fetch(`/tile/${x}/${y}`)
+        .then(r => r.json())
+        .then(d => {
+            if(d.success) {
+                document.getElementById('tileImg').src = '/uploads/' + d.tile;
+                document.getElementById('tileId').textContent = d.id;
+                $('#modal').modal('show');
+            }
+        });
+};
+
+function download() {
+    const a = document.createElement('a');
+    a.href = img.src;
+    a.download = 'mosaic.jpg';
+    a.click();
+}
+</script>
+</body>
+</html>
