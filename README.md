@@ -19,8 +19,8 @@
 
 <table>
   <tr>
-    <td><img src="assets/original.jpg" alt="Original Image" width="300"/><br/><sub><b>Original Image</b></sub></td>
-    <td><img src="assets/mosaic.jpg" alt="Mosaic Output" width="300"/><br/><sub><b>Mosaic Output</b></sub></td>
+    <td><img src="https://github.com/tashib11/mosaic_generator_img_processing.git/durbar.jpg" alt="Original Image" width="300"/><br/><sub><b>Original Image</b></sub></td>
+    <td><img src="https://github.com/tashib11/mosaic_generator_img_processing.git/emon.jpg" alt="Mosaic Output" width="300"/><br/><sub><b>Mosaic Output</b></sub></td>
   </tr>
   <tr>
     <td colspan="2" align="center"><img src="assets/segments.jpg" alt="Superpixel Segments" width="300"/><br/><sub><b>Superpixel Segmentation</b></sub></td>
@@ -38,7 +38,7 @@
 
 ### 🎯 **Intelligent Tile Matching**
 - **Color Analysis**: RGB Euclidean distance for color similarity
-- **Texture Analysis**: Gabor filter convolution for pattern matching
+- **Edge Analysis**: Gabor filter convolution for pattern matching
 - **Combined Scoring**: Weighted algorithm for optimal tile selection
 
 ### 🎨 **Customizable Output**
@@ -48,7 +48,6 @@
 
 ### 🌐 **Dual Interface**
 - **Web Application**: Beautiful Flask-based browser interface
-- **Desktop Application**: Tkinter GUI for offline use
 
 ---
 
@@ -61,7 +60,7 @@
 | **scikit-image** | SLIC superpixel segmentation |
 | **NumPy** | Numerical computations |
 | **Flask** | Web application framework |
-| **Tkinter** | Desktop GUI |
+
 
 ---
 
